@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: lamp.ma
-//Last modified: Thu, Aug 31, 2023 08:32:35 PM
+//Last modified: Thu, Aug 31, 2023 08:45:59 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "BB963E3A-423F-72CA-862F-2B9CA5022DEA";
+fileInfo "UUID" "417791B9-448D-E314-A52B-DB96FD6CE898";
 createNode transform -s -n "persp";
 	rename -uid "78DC7CD8-4C50-7BA4-8A48-0A8C87DC5569";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.8397210135517663 4.55567479225558 10.077628065977288 ;
-	setAttr ".r" -type "double3" -14.138352783858826 708.19999999983997 -2.0307619793428608e-16 ;
+	setAttr ".t" -type "double3" -8.6562729148594357 2.0401531105947859 8.1283918851991821 ;
+	setAttr ".r" -type "double3" -0.9383527838768253 680.59999999977003 6.4312162176555957e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "979D5E71-4C67-8904-5970-2D8641CC3EF5";
 	setAttr -k off ".v" no;

@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: advanced chair attempt 2.ma
-//Last modified: Wed, Sep 06, 2023 08:37:33 PM
+//Last modified: Wed, Sep 06, 2023 08:40:43 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "008FCA4A-4CB3-EB15-B6B6-679842F4B418";
+fileInfo "UUID" "D9F6CF5B-4931-E26C-5DD8-A9AF2DBE19F9";
 createNode transform -s -n "persp";
 	rename -uid "06BD4D3D-4636-6136-B98B-6F91BE436900";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.0013994916953664 16.047616639212983 22.675625958383989 ;
-	setAttr ".r" -type "double3" -29.13835273007642 -1095.3999999981536 8.2475102242655129e-16 ;
+	setAttr ".t" -type "double3" -19.018049175468011 11.085578832909647 17.033133578298024 ;
+	setAttr ".r" -type "double3" -17.738352730075576 -1128.1999999981324 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "00C0B1F2-40B4-BC2A-641E-CFBA49AF42FF";
 	setAttr -k off ".v" no;

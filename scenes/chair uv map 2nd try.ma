@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
-//Name: chair uv map.ma
-//Last modified: Wed, Sep 13, 2023 07:33:45 PM
+//Name: chair uv map 2nd try.ma
+//Last modified: Wed, Sep 13, 2023 07:35:01 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,17 +12,17 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "C6043E8A-4125-89D2-772C-54B104011DCC";
+fileInfo "UUID" "B1FE7A63-4927-D1F3-18A0-8E93583085A2";
 createNode transform -s -n "persp";
 	rename -uid "06BD4D3D-4636-6136-B98B-6F91BE436900";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -9.905925245860006 11.850376429395403 8.0516175808347956 ;
-	setAttr ".r" -type "double3" -23.13835271775141 -3281.3999999967309 -2.12005582244668e-15 ;
+	setAttr ".t" -type "double3" -16.541168459672956 8.7056316974884318 9.7885918730114199 ;
+	setAttr ".r" -type "double3" -14.138352717750198 -3296.1999999966779 1.4293455640161734e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "00C0B1F2-40B4-BC2A-641E-CFBA49AF42FF";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 15.678776747111559;
+	setAttr ".coi" 20.211995246957891;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -1403,4 +1403,4 @@ connectAttr "chairtapShape.wm" "polyFlipUV29.mp";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "chair_mat.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of chair uv map.ma
+// End of chair uv map 2nd try.ma

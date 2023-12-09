@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: advanced sword with lighting.ma
-//Last modified: Fri, Dec 08, 2023 01:43:23 PM
+//Last modified: Fri, Dec 08, 2023 01:48:58 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,17 +12,17 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "DD4D7C97-4FB8-42C8-AF58-51A2D691F135";
+fileInfo "UUID" "BF83F166-4C34-08D8-2D58-4FAEA38DF6EC";
 createNode transform -s -n "persp";
 	rename -uid "3B958C46-414A-0C1A-A879-4EAA0F996A18";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.3414388496204739 3.7654582672946781 0.052853973338183646 ;
+	setAttr ".t" -type "double3" -1.6578761511586118 4.3961392566750144 0.065010268271831123 ;
 	setAttr ".r" -type "double3" -63.338352726987821 -2607.7999999984572 1.6570649666319704e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5C6B42BD-4CAA-1386-8D73-FB84986CC395";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 2.9501577162206107;
+	setAttr ".coi" 3.6558763936530672;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
